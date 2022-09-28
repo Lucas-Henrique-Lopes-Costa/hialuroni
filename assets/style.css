@@ -1527,7 +1527,9 @@ img.secure-ft {
 	}
 	.pote-item img, .oferta-extra-item img, .depoitemtos-cv-item img {
 		width: 270px;
-		margin: auto;
+
+        display: block;
+        margin: 0px auto;
 	}
 	.diferenciais-oferta-extra-item svg {
 		color: #C68F40;
@@ -1558,7 +1560,9 @@ img.secure-ft {
 	/* Rodapé */
 	.img-crueltyfree img {
 		width: 75px;
-		margin: 0 auto 30px auto;
+		display: block;
+        margin: 0px auto;
+        padding: 5px;
 	}
 	.links-ft {
 		text-align: center;
@@ -1566,23 +1570,30 @@ img.secure-ft {
 		display: block;
 		overflow: hidden;
 		margin-bottom: 30px;
+        
 	}
 	.links-ft h2, .formaspag-ft h2, .envio-ft h2 {
 		font-size: 16px;
 		text-align: center;
+        padding: 5px;
 	}
 	.formaspag-ft img, .envio-ft img {
 		width: 200px;
-		margin: 0 auto 30px auto;
+        display: block;
+        margin: 0px auto;
+        padding: 5px;
 	}
 	.redes-sociais {
 		clear: both;
 		display: block;
 		overflow: hidden;
+        padding: 5px;
 	}
 	.rs-ft, img.secure-ft {
 		float: none;
-		margin: 0 auto;
+		display: block;
+        margin: 0px auto;
+        padding: 5px;
 	}
 	/* Rodapé */
 }
